@@ -75,8 +75,6 @@ public class MyGdxGame implements ApplicationListener {
 		stage.act();
 		
 		frame++;
-		
-		System.out.println(frame);
 	}
 
 	@Override

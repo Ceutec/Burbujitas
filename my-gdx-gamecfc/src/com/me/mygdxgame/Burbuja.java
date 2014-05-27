@@ -10,6 +10,8 @@ public class Burbuja extends Image
 	{
 		super(new Texture(Gdx.files.internal("data/pelotita.png")));
 		setY((float)Math.random()*300);
+		
+		addListener(new BurbujaListener(this));
 	}
 	
 	@Override
